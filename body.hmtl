@@ -6,13 +6,13 @@
         <title>자기소개</title>
     </head>
     <body>
-        <div class="top">
-            <ul class="change">
-                <li><a href="£">MAIN</a></li>
+        <header class="topMenu">
+            <ul class="mainBar">
+                <li><a href="£">HOME</a></li>
                 <li><a href="£">ABOUT</a></li>
                 <li><a href="£">TECH</a></li>
                 <li><a href="£">CONTACT</a></li>
             </ul>
-        </div>
+        </header>
     </body>
 </html> 
