@@ -20,3 +20,11 @@ a       {
             
             padding: 11px 50px;
          }
+.profile-img{
+            background-color: #FFFFFF;
+         }
+.profile-img img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+         }         
