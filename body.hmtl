@@ -17,5 +17,12 @@
         <div class="profile-img">
                 <img src="/images/ME.jpg">
         </div>
+        <div>
+            <ul class="nameBar">
+                <li>이름: 서재선</li>
+                <li>개발분야: 백엔드</li>
+                <li>개발언어: HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
     </body>
 </html> 
