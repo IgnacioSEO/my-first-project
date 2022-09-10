@@ -28,3 +28,6 @@ a       {
             height: 200px;
             border-radius: 50%;
          }         
+.nameBar{   
+            list-style: none;
+         }
