@@ -1,8 +1,12 @@
+.total{
+            background: grey;
+            height: 100vh;
+         }
 .topMenu {
             display: flex;
             justify-content: space-between;
             background-color: #333;
-            padding: 0px 0px;
+            padding: 0px 300px;
          }
 a       {
             text-decoration: none;
@@ -13,11 +17,9 @@ a       {
             display: flex;
             color: #FFFFFF;
             margin: 0;
-            padding-left: 0;
             text-align: center;
          }
 .mainBar li{
-            
             padding: 11px 50px;
          }
 .profile-img{
@@ -26,7 +28,8 @@ a       {
 .profile-img img{
             width: 200px;
             height: 200px;
-            border-radius: 50%;
+            border-radius: 15px 15px 15px 15px;
+            border-color: #FFFFFF;
          }         
 .nameBar{   
             list-style: none;
