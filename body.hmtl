@@ -6,23 +6,29 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <header class="topMenu">
-            <ul class="mainBar">
-                <li><a href="£">HOME</a></li>
-                <li><a href="£">ABOUT</a></li>
-                <li><a href="£">TECH</a></li>
-                <li><a href="£">CONTACT</a></li>
-            </ul>
-        </header>
-        <div class="profile-img">
+        <div class="total">
+            <header class="topMenu">
+                <ul class="mainBar">
+                    <li><a href="£">HOME</a></li>
+                    <li><a href="£">ABOUT</a></li>
+                    <li><a href="£">TECH</a></li>
+                    <li><a href="£">CONTACT</a></li>
+                </ul>
+            </header>
+            <div class="profile-img">
                 <img src="/images/ME.jpg">
+            </div>
+            <div>
+                <ul class="nameBar">
+                    <li><h1>Profile</h1></li>
+                    <li>이름: 서재선</li>
+                    <li>개발분야: 백엔드</li>
+                    <li>개발언어: HTML, CSS, JavaScript</li>
+                </ul>
+            </div>
+            <div>
+                
+            </div>
         </div>
-        <div>
-            <ul class="nameBar">
-                <li>이름: 서재선</li>
-                <li>개발분야: 백엔드</li>
-                <li>개발언어: HTML, CSS, JavaScript</li>
-            </ul>
-        </div>
-    </body>
-</html> 
+        </body>
+        </html> 
