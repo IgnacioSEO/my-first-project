@@ -1,3 +1,4 @@
+body{font-family: "Geogia";}
 .total{
             background: grey;
             height: 100vh;
@@ -6,7 +7,7 @@
             display: flex;
             justify-content: space-between;
             background-color: #333;
-            padding: 0px 300px;
+            padding: 0px 0px;
          }
 a       {
             text-decoration: none;
@@ -22,15 +23,6 @@ a       {
 .mainBar li{
             padding: 11px 50px;
          }
-.profile-img{
-            background-color: #FFFFFF;
-         }
-.profile-img img{
-            width: 200px;
-            height: 200px;
-            border-radius: 15px 15px 15px 15px;
-            border-color: #FFFFFF;
-         }         
 .nameBar{   
             list-style: none;
          }
