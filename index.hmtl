@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>Jaeseon Seo</title>
         <link rel="stylesheet" href="/css/style.css">
+        <style>
+            .topMenu{box-shadow: 2px 2px 2px rgb(223, 213, 213);}
+        </style>
     </head>
     <body>
         <div class="total">
@@ -24,11 +27,15 @@
                     <li>개발언어: HTML, CSS, JavaScript</li>
                 </ul>
             </div>
-            <div>
-                <h2>Contact</h2>
+            <div class="Contact">
+                <ul>
+                    <li><h2>Contact</h2></li>
+                </ul>
             </div>
-            <div>
-                <p><a href="https://github.com/IgnacioSEO">Github</a></p>
+            <div class="Git">
+            <ul>
+                <li><a href="https://github.com/IgnacioSEO">Github</a></p></li>
+            </ul>
             </div>
         </div>
         </body>
