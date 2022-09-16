@@ -43,5 +43,12 @@
             document.write( '<p>' + today + '</p>' );
           //console.log('Hi this is my first website')
           </script>
+          <script>
+              let webSiteInf;
+              let thisYear;
+              webSiteInf = "CV"
+              thisYear = "2022"
+              console.log(webSiteInf, thisYear)  
+          </script>
         </body>
         </html> 
