@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Jaeseon Seo</title>
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="webSite.css" >
         <style>
             .topMenu{box-shadow: 2px 2px 2px rgb(223, 213, 213);}
         </style>
@@ -44,11 +44,12 @@
           //console.log('Hi this is my first website')
           </script>
           <script>
-              let webSiteInf;
-              let thisYear;
-              webSiteInf = "CV"
-              thisYear = "2022"
-              console.log(webSiteInf, thisYear)  
+            function webSite(){
+              let webSiteInf = "Profile"
+              let thisYear = "2022"
+              console.log(webSiteInf, thisYear)
+            }
+            webSite()   
           </script>
         </body>
         </html> 
