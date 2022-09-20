@@ -18,7 +18,6 @@
                     <li><a href="£">CONTACT</a></li>
                 </ul>
             </header>
-
             <div>
                 <ul class="nameBar">
                     <li><h1>Profile</h1></li>
@@ -27,11 +26,13 @@
                     <li>개발언어: HTML, CSS, JavaScript</li>
                 </ul>
             </div>
-            <div class="Contact">
-                <ul>
-                    <li><h2>Contact</h2></li>
-                </ul>
-            </div>
+           <header class = "secondBar">
+               <div class="Contact">
+                    <ul>
+                       <li><h2>Contact</h2></li>
+                    </ul>
+                </div>
+            </header>
             <div class="Git">
             <ul>
                 <li><a href="https://github.com/IgnacioSEO">Github</a></p></li>
