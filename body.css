@@ -22,6 +22,7 @@ a       {
             color: #FFFFFF;
             margin: 0;
             text-align: center;
+            opacity: 0.7;
          }
 .mainBar li{
             padding: 11px 50px;
@@ -29,14 +30,22 @@ a       {
 .nameBar{   
             list-style: none;
          }
-.Contact {  
-             list-style: none;
-            background-color: #333;
+.Contact li{  
+            list-style: none;
+            background-color: gray;
             width: 100%;
             color: #FFFFFF;
+            opacity: 0.7;
          }  
 .secondBar {list-style: none;}
 .Git li{
             list-style: none;
          }                
 
+.time{
+             text-align: center;
+             font-size: 350px;  /* 원하는 폰트 사이즈 */
+             font-weight: bold;
+             color: #FFFFFF; /* 시간이 표기되는 텍스트 색상 */
+             opacity: 0.7;
+         }
