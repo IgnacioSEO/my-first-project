@@ -1,16 +1,16 @@
 body{font-family: "Geogia";}
 .total{
             background: grey;
-            height: 1000px;
-            width: 100%;
+            min-height: 100vh;
+            min-width: 100vw;
          }
 .topMenu {
             position: fixed;
             display: flex;
             justify-content: space-between;
             background-color: #333;
-            height: 37px;
-            width: 100%;
+            min-height: 2.4vh;
+            min-width: 100vw;
          }
 a       {
             text-decoration: none;
@@ -48,4 +48,12 @@ a       {
              font-weight: bold;
              color: #FFFFFF; /* 시간이 표기되는 텍스트 색상 */
              opacity: 0.7;
+         }
+.bottom{
+             color: #FFFFFF;
+             background-color: #333;
+             height: 2.4vh;
+             min-width: 100vw;
+             position: absolute;
+             bottom: 0;
          }
