@@ -13,12 +13,12 @@
     <body>
         <div class="total">
             <header class="topMenu">
-                <ul class="mainBar">
-                    <li><a href="£">HOME</a></li>
-                    <li><a href="£">ABOUT</a></li>
-                    <li><a href="£">TECH</a></li>
-                    <li><a href="£">CONTACT</a></li>
-                </ul>
+                    <div class="mainBar">
+                        <div class="mainBar1"><a href="£">HOME</a></div>
+                        <div class="mainBar2"><a href="£">ABOUT</a></div>
+                        <div class="mainBar3"><a href="£">TECH</a></div>
+                        <div class="mainBar4"><a href="£">CONTACT</a></div>
+                    </div>
             </header>
             <div>
                 <ul class="nameBar">
@@ -42,7 +42,7 @@
             </ul>
             </div>
             <div id="time" class="time"></div>
-            <footer class="bottom"> Thank you </footer>
+            <footer class="bottom"> <script></script> </footer>
         </div>
         </body>
         </html> 
