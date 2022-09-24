@@ -1,11 +1,10 @@
 body{font-family: "Geogia";}
-.total{
+.total{     
             background: grey;
             min-height: 100vh;
             min-width: 100vw;
          }
 .topMenu {
-            position: fixed;
             display: flex;
             justify-content: space-between;
             background-color: #333;
@@ -15,6 +14,7 @@ body{font-family: "Geogia";}
          }
 a       {
             text-decoration: none;
+            font-size: 20px;
             color: #FFFFFF;
             align-items: center;
          }
@@ -27,25 +27,33 @@ a       {
             opacity: 0.7;
             align-items: center;
          }
+.mainBar0 {
+            background-color: #333;
+            width: 300px;
+           }      
 .mainBar1 {
-          background-color: #FFFFFF;
+          background-color: #333;
           width: 300px;
          }
 .mainBar2 {          
-            background-color: #FFFFFF;
+            background-color: #333;
             width: 300px;
          }
 .mainBar3 {
-            background-color: #FFFFFF;
+            background-color: #333;
             width: 300px;
          }
 .mainBar4 {
-            background-color: #FFFFFF;
+            background-color: #333;
             width: 300px;
-         }         
-.mainBar1,.mainBar2,.mainBar3,.mainBar4{
+         }
+.mainBar5 {
+            background-color: #333;
             width: 300px;
-            margin: 20px;
+           }
+.mainBar0,.mainBar1,.mainBar2,.mainBar3,.mainBar4,.mainBar5{
+            width: 300px;
+            margin: 30px;
             text-align: center;
          }
 .nameBar{   
@@ -64,6 +72,7 @@ a       {
          }                
 
 .time{
+             font-family: Arial;
              text-align: center;
              font-size: 350px;  /* 원하는 폰트 사이즈 */
              font-weight: bold;
