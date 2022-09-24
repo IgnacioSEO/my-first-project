@@ -8,24 +8,27 @@
         <style>
             .topMenu{box-shadow: 2px 2px 2px rgb(223, 213, 213);}
             .bottom{box-shadow: 2px 2px 2px rgb(223, 213, 213);}
+             body{margin: 0;}
         </style>
     </head>
     <body>
         <div class="total">
-            <header class="topMenu">
+            <div class="topMenu">
                     <div class="mainBar">
+                        <div class="mainBar0"> </div>
                         <div class="mainBar1"><a href="£">HOME</a></div>
                         <div class="mainBar2"><a href="£">ABOUT</a></div>
                         <div class="mainBar3"><a href="£">TECH</a></div>
                         <div class="mainBar4"><a href="£">CONTACT</a></div>
+                        <div class="mainBar5"> </div>
                     </div>
-            </header>
+                </div>
             <div>
                 <ul class="nameBar">
                     <li><h1>Profile</h1></li>
                     <li>이름: 서재선</li>
                     <li>개발분야: 백엔드</li>
-                    <li>개발도구: VScode, NodeJS</li>
+                    <li>개발도구: Visual Studio Code, NodeJS</li>
                     <li>개발언어: HTML, CSS, JavaScript</li>
                 </ul>
             </div>
