@@ -23,9 +23,9 @@
                         <div class="mainBar5"> </div>
                     </div>
                 </div>
-            <div>
+            <div class ="proFile">
                 <ul class="nameBar">
-                    <li><h1>Profile</h1></li>
+                    <li class = profile>Profile</li>
                     <li>이름: 서재선</li>
                     <li>개발분야: 백엔드</li>
                     <li>개발도구: Visual Studio Code, NodeJS</li>
