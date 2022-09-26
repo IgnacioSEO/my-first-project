@@ -1,3 +1,26 @@
+@font-face {
+   font-family: "SeoulNamsanM";
+   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff")
+     format("woff");
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+ @font-face {
+   font-family: "SeoulNamsan";
+   font-weight: 800;
+   font-style: normal;
+   src: url("https://cdn.jsdelivr.net/gh/webfontworld/seoulnamsan/SeoulNamsanExtraBold.eot");
+   src: url("https://cdn.jsdelivr.net/gh/webfontworld/seoulnamsan/SeoulNamsanExtraBold.eot?#iefix")
+       format("embedded-opentype"),
+     url("https://cdn.jsdelivr.net/gh/webfontworld/seoulnamsan/SeoulNamsanExtraBold.woff2")
+       format("woff2"),
+     url("https://cdn.jsdelivr.net/gh/webfontworld/seoulnamsan/SeoulNamsanExtraBold.woff")
+       format("woff"),
+     url("https://cdn.jsdelivr.net/gh/webfontworld/seoulnamsan/SeoulNamsanExtraBold.ttf")
+       format("truetype");
+   font-display: swap;
+ } 
 body{font-family: "Geogia";}
 .total{     
             background: grey;
@@ -5,6 +28,7 @@ body{font-family: "Geogia";}
             min-width: 100vw;
          }
 .topMenu {
+            font-family: "SeoulNamsanM";
             display: flex;
             justify-content: space-between;
             background-color: #333;
@@ -14,7 +38,7 @@ body{font-family: "Geogia";}
          }
 a       {
             text-decoration: none;
-            font-size: 20px;
+            font-size: 22px;
             color: #FFFFFF;
             align-items: center;
          }
@@ -87,7 +111,7 @@ a       {
             opacity: 0.7;
          }  
 .secondBar {list-style: none;}
-.Git li{
+.Git li{    font-size: 22px;
             list-style: none;
          }                
 
