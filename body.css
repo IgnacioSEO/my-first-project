@@ -80,6 +80,16 @@ a       {
             margin: 30px;
             text-align: center;
          }
+.image-box{ 
+            width: 380px;
+            height: 380px;
+            overflow: hidden;
+            position: relative;
+            bottom: -650px;
+            right: 550px;
+            margin:0 auto;
+            border: 2px solid #FFFFFF; 
+         }         
 .proFile {
             padding-left: 1000px;
             padding-top: 300px;
