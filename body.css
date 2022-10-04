@@ -86,8 +86,8 @@ a       {
             border-radius: 50px;
             overflow: hidden;
             position: relative;
-            bottom: -400px;
-            right: 450px;
+            bottom: -380px;
+            right: 580px;
             margin:0 auto;
             border: 5px solid #FFFFFF;
             opacity: 0.7; 
@@ -100,7 +100,6 @@ a       {
             font-family: seoulNamsan;
             font-size: 80px;
             color: #FFFFFF;
-            opacity: 0.7;
          }
 .nameBar {
             font-family: seoulNamsan;
