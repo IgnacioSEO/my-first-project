@@ -20,8 +20,16 @@
      url("https://cdn.jsdelivr.net/gh/webfontworld/seoulnamsan/SeoulNamsanExtraBold.ttf")
        format("truetype");
    font-display: swap;
- } 
+ }  
 body{font-family: "Geogia";}
+i {
+            font-size: 100px;
+            margin: 10px;
+         }
+.fa-github {
+            color: #FFFFFF;
+            opacity: 0.7;
+         }
 .total{     
             background: grey;
             min-height: 100vh;
