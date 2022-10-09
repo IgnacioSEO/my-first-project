@@ -149,7 +149,7 @@ a {
 }
 .Contact {
   position: relative;
-  right: -760px;
+  right: -748px;
   top: 100px;
   font-family: seoulNamSan;
   font-size: 40px;
@@ -183,21 +183,23 @@ i {
   right: -23px;
   opacity: 0.7;
 }
-.Git {
-  align-items: center;
-}
-.Git a {
-  font-family: seoulNamSan;
-  font-size: 30px;
-  color: #ffffff;
-}
-.Git li {
-  list-style: none;
-  font-family: seoulNamSan;
-  font-size: 30px;
+.fa-envelope {
   color: #ffffff;
   opacity: 0.7;
-  padding-left: 1200px;
+}
+.email {
+  position: relative;
+  right: -800px;
+  top: -60px;
+}
+.emailList {
+  list-style: none;
+}
+.emailListmail {
+  font-family: seoulNamSan;
+  position: relative;
+  right: -33px;
+  opacity: 0.7;
 }
 .nameBar {
   list-style: none;
