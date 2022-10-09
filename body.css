@@ -176,12 +176,12 @@ i {
 }
 .iconList {
   list-style: none;
-  color: #ffffff;
-  opacity: 0.7;
 }
 .iconListGit {
+  font-family: seoulNamSan;
   position: relative;
-  right: -25px;
+  right: -23px;
+  opacity: 0.7;
 }
 .Git {
   align-items: center;
