@@ -88,20 +88,21 @@ a {
   text-align: center;
 }
 .image-box {
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
   border-radius: 50px;
   overflow: hidden;
   position: relative;
-  bottom: -380px;
-  right: 580px;
+  top: 200px;
+  left: -250px;
   margin: 0 auto;
   border: 5px solid #ffffff;
   opacity: 0.7;
 }
 .proFile {
-  padding-left: 1200px;
-  padding-top: 0px;
+  position: relative;
+  top: -130px;
+  left: 820px;
 }
 .profile {
   font-family: seoulNamsan;
@@ -111,38 +112,38 @@ a {
 .nameBar {
   font-family: seoulNamsan;
 }
+.info {
+  font-family: seoulNamsan;
+  font-size: 35px;
+}
+.techBox {
+  display: flex;
+  position: relative;
+  top: 150px;
+}
 .techBox1 {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   border-radius: 50px;
   overflow: hidden;
-  position: relative;
-  bottom: -380px;
-  right: 580px;
   margin: 0 auto;
   border: 5px solid #ffffff;
   opacity: 0.7;
 }
 .techBox2 {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   border-radius: 50px;
   overflow: hidden;
-  position: relative;
-  bottom: -380px;
-  right: 580px;
   margin: 0 auto;
   border: 5px solid #ffffff;
   opacity: 0.7;
 }
 .techBox3 {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   border-radius: 50px;
   overflow: hidden;
-  position: relative;
-  bottom: -380px;
-  right: 580px;
   margin: 0 auto;
   border: 5px solid #ffffff;
   opacity: 0.7;
