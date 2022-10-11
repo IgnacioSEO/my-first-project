@@ -94,7 +94,7 @@ a {
   overflow: hidden;
   position: relative;
   top: 200px;
-  left: -250px;
+  left: -350px;
   margin: 0 auto;
   border: 5px solid #ffffff;
   opacity: 0.7;
@@ -102,7 +102,7 @@ a {
 .proFile {
   position: relative;
   top: -130px;
-  left: 820px;
+  left: 720px;
 }
 .profile {
   font-family: seoulNamsan;
@@ -119,11 +119,16 @@ a {
 .techBox {
   display: flex;
   position: relative;
-  top: 150px;
+  top: 50px;
+}
+.techBox0 {
+  display: flex;
+  position: relative;
+  top: 100px;
 }
 .techBox1 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50px;
   overflow: hidden;
   margin: 0 auto;
@@ -131,8 +136,8 @@ a {
   opacity: 0.7;
 }
 .techBox2 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50px;
   overflow: hidden;
   margin: 0 auto;
@@ -140,8 +145,35 @@ a {
   opacity: 0.7;
 }
 .techBox3 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 5px solid #ffffff;
+  opacity: 0.7;
+}
+.techBox4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 5px solid #ffffff;
+  opacity: 0.7;
+}
+.techBox5 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 5px solid #ffffff;
+  opacity: 0.7;
+}
+.techBox6 {
+  width: 300px;
+  height: 300px;
   border-radius: 50px;
   overflow: hidden;
   margin: 0 auto;
