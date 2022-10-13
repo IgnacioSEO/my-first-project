@@ -87,6 +87,57 @@ a {
   margin: 30px;
   text-align: center;
 }
+@media (max-width: 4000px) {
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    align-items: center;
+  }
+  .mainBar {
+    list-style: none;
+    display: flex;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    opacity: 0.7;
+    align-items: center;
+  }
+  .mainBar0 {
+    background-color: #333;
+    width: 200px;
+  }
+  .mainBar1 {
+    background-color: #333;
+    width: 200px;
+  }
+  .mainBar2 {
+    background-color: #333;
+    width: 200px;
+  }
+  .mainBar3 {
+    background-color: #333;
+    width: 200px;
+  }
+  .mainBar4 {
+    background-color: #333;
+    width: 200px;
+  }
+  .mainBar5 {
+    background-color: #333;
+    width: 200px;
+  }
+  .mainBar0,
+  .mainBar1,
+  .mainBar2,
+  .mainBar3,
+  .mainBar4,
+  .mainBar5 {
+    width: 420px;
+    margin: 30px;
+    text-align: center;
+  }
+}
 .image-box {
   width: 350px;
   height: 350px;
@@ -253,6 +304,19 @@ i {
   position: fixed;
   top: 320px;
   left: 250px;
+}
+@media (max-width: 4000px) {
+  .time {
+    font-family: Arial;
+    text-align: center;
+    font-size: 500px; /* 원하는 폰트 사이즈 */
+    font-weight: bold;
+    color: #ffffff; /* 시간이 표기되는 텍스트 색상 */
+    opacity: 0.7;
+    position: fixed;
+    top: 620px;
+    left: 750px;
+  }
 }
 .bottom {
   color: #ffffff;
