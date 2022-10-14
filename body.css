@@ -167,6 +167,37 @@ a {
   font-family: seoulNamsan;
   font-size: 35px;
 }
+@media (max-width: 4000px) {
+  .image-box {
+    width: 550px;
+    height: 550px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    top: 410px;
+    right: 720px;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+  .proFile {
+    position: relative;
+    top: -100px;
+    left: 1420px;
+  }
+  .profile {
+    font-family: seoulNamsan;
+    font-size: 100px;
+    color: #ffffff;
+  }
+  .nameBar {
+    font-family: seoulNamsan;
+  }
+  .info {
+    font-family: seoulNamsan;
+    font-size: 50px;
+  }
+}
 .techBox {
   display: flex;
   position: relative;
