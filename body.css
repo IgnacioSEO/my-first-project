@@ -262,6 +262,72 @@ a {
   border: 5px solid #ffffff;
   opacity: 0.7;
 }
+@media (max-width: 4000px) {
+  .techBox {
+    display: flex;
+    position: relative;
+    top: 300px;
+  }
+  .techBox0 {
+    display: flex;
+    position: relative;
+    top: 600px;
+  }
+  .techBox1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+  .techBox2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+  .techBox3 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+  .techBox4 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+  .techBox5 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+  .techBox6 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ffffff;
+    opacity: 0.7;
+  }
+}
 .Contact {
   position: relative;
   right: -748px;
