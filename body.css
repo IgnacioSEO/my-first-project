@@ -35,62 +35,13 @@ body {
   justify-content: space-between;
   background-color: #333;
   min-height: 2.4vh;
-  min-width: 100%;
+  min-width: 100vh;
   align-items: center;
 }
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: #ffffff;
-  align-items: center;
-}
-.mainBar {
-  list-style: none;
-  display: flex;
-  color: #ffffff;
-  margin: 0;
-  text-align: center;
-  opacity: 0.7;
-  align-items: center;
-}
-.mainBar0 {
-  background-color: #333;
-  width: 100px;
-}
-.mainBar1 {
-  background-color: #333;
-  width: 100px;
-}
-.mainBar2 {
-  background-color: #333;
-  width: 100px;
-}
-.mainBar3 {
-  background-color: #333;
-  width: 100px;
-}
-.mainBar4 {
-  background-color: #333;
-  width: 100px;
-}
-.mainBar5 {
-  background-color: #333;
-  width: 100px;
-}
-.mainBar0,
-.mainBar1,
-.mainBar2,
-.mainBar3,
-.mainBar4,
-.mainBar5 {
-  width: 220px;
-  margin: 30px;
-  text-align: center;
-}
-@media (max-width: 4000px) {
+@media (min-width: 3072px) {
   a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
     color: #ffffff;
     align-items: center;
   }
@@ -105,27 +56,27 @@ a {
   }
   .mainBar0 {
     background-color: #333;
-    width: 200px;
+    width: 100px;
   }
   .mainBar1 {
     background-color: #333;
-    width: 200px;
+    width: 100px;
   }
   .mainBar2 {
     background-color: #333;
-    width: 200px;
+    width: 100px;
   }
   .mainBar3 {
     background-color: #333;
-    width: 200px;
+    width: 100px;
   }
   .mainBar4 {
     background-color: #333;
-    width: 200px;
+    width: 100px;
   }
   .mainBar5 {
     background-color: #333;
-    width: 200px;
+    width: 100px;
   }
   .mainBar0,
   .mainBar1,
@@ -133,10 +84,59 @@ a {
   .mainBar3,
   .mainBar4,
   .mainBar5 {
-    width: 420px;
+    width: 220px;
     margin: 30px;
     text-align: center;
   }
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  align-items: center;
+}
+.mainBar {
+  list-style: none;
+  display: flex;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  opacity: 0.7;
+  align-items: center;
+}
+.mainBar0 {
+  background-color: #333;
+  width: 200px;
+}
+.mainBar1 {
+  background-color: #333;
+  width: 200px;
+}
+.mainBar2 {
+  background-color: #333;
+  width: 200px;
+}
+.mainBar3 {
+  background-color: #333;
+  width: 200px;
+}
+.mainBar4 {
+  background-color: #333;
+  width: 200px;
+}
+.mainBar5 {
+  background-color: #333;
+  width: 200px;
+}
+.mainBar0,
+.mainBar1,
+.mainBar2,
+.mainBar3,
+.mainBar4,
+.mainBar5 {
+  width: 420px;
+  margin: 30px;
+  text-align: center;
 }
 .image-box {
   width: 350px;
@@ -364,7 +364,7 @@ i {
 .iconListGit {
   font-family: seoulNamSan;
   position: relative;
-  right: -23px;
+  right: -12px;
   opacity: 0.7;
 }
 .fa-envelope {
@@ -381,7 +381,7 @@ i {
 .emailListmail {
   font-family: seoulNamSan;
   position: relative;
-  right: -33px;
+  right: -25px;
   opacity: 0.7;
 }
 .nameBar {
