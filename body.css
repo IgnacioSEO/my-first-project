@@ -36,57 +36,6 @@ body {
   align-items: center;
   width: fit-content;
 }
-@media (min-width: 3072px) {
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: #ffffff;
-    align-items: center;
-  }
-  .mainBar {
-    list-style: none;
-    display: flex;
-    color: #ffffff;
-    margin: 0;
-    text-align: center;
-    opacity: 0.7;
-    align-items: center;
-  }
-  .mainBar0 {
-    background-color: #333;
-    width: 100px;
-  }
-  .mainBar1 {
-    background-color: #333;
-    width: 100px;
-  }
-  .mainBar2 {
-    background-color: #333;
-    width: 100px;
-  }
-  .mainBar3 {
-    background-color: #333;
-    width: 100px;
-  }
-  .mainBar4 {
-    background-color: #333;
-    width: 100px;
-  }
-  .mainBar5 {
-    background-color: #333;
-    width: 100px;
-  }
-  .mainBar0,
-  .mainBar1,
-  .mainBar2,
-  .mainBar3,
-  .mainBar4,
-  .mainBar5 {
-    width: 220px;
-    margin: 30px;
-    text-align: center;
-  }
-}
 a {
   text-decoration: none;
   font-size: 30px;
@@ -165,37 +114,6 @@ a {
   font-family: seoulNamsan;
   font-size: 35px;
 }
-@media (max-width: 4000px) {
-  .image-box {
-    width: 550px;
-    height: 550px;
-    border-radius: 50px;
-    overflow: hidden;
-    position: relative;
-    top: 410px;
-    right: 720px;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
-  .proFile {
-    position: relative;
-    top: -100px;
-    left: 1420px;
-  }
-  .profile {
-    font-family: seoulNamsan;
-    font-size: 100px;
-    color: #ffffff;
-  }
-  .nameBar {
-    font-family: seoulNamsan;
-  }
-  .info {
-    font-family: seoulNamsan;
-    font-size: 50px;
-  }
-}
 .techBox {
   display: flex;
   position: relative;
@@ -259,72 +177,6 @@ a {
   margin: 0 auto;
   border: 5px solid #ffffff;
   opacity: 0.7;
-}
-@media (max-width: 4000px) {
-  .techBox {
-    display: flex;
-    position: relative;
-    top: 300px;
-  }
-  .techBox0 {
-    display: flex;
-    position: relative;
-    top: 600px;
-  }
-  .techBox1 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
-  .techBox2 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
-  .techBox3 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
-  .techBox4 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
-  .techBox5 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
-  .techBox6 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50px;
-    overflow: hidden;
-    margin: 0 auto;
-    border: 5px solid #ffffff;
-    opacity: 0.7;
-  }
 }
 .Contact {
   position: relative;
@@ -394,26 +246,13 @@ i {
 .time {
   font-family: Arial;
   text-align: center;
-  font-size: 300px; /* 원하는 폰트 사이즈 */
+  font-size: 300px;
   font-weight: bold;
-  color: #ffffff; /* 시간이 표기되는 텍스트 색상 */
+  color: #ffffff;
   opacity: 0.7;
   position: fixed;
   top: 320px;
   left: 250px;
-}
-@media (max-width: 4000px) {
-  .time {
-    font-family: Arial;
-    text-align: center;
-    font-size: 500px; /* 원하는 폰트 사이즈 */
-    font-weight: bold;
-    color: #ffffff; /* 시간이 표기되는 텍스트 색상 */
-    opacity: 0.7;
-    position: fixed;
-    top: 620px;
-    left: 750px;
-  }
 }
 .bottom {
   color: #ffffff;
